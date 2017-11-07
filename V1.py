@@ -16,7 +16,7 @@ browser = webdriver.Chrome()
 
 
 
-browser.get("http://www.insight-china.cn/conference/MiniSite/AttendUser/MyTicket?CId=426&SId=721")
+browser.get("http://www.insight-china.cn/conference/MiniSite/AttendUser/MyTicket?CId=XXX&SId=XXX")
 
 
 while True:
@@ -24,7 +24,7 @@ while True:
 
 	if  i.hour==set_hour and i.minute==set_minute and i.second==set_second:
 		print("time out")
-		browser.get("http://www.insight-china.cn/conference/MiniSite/AttendUser/MyTicket?CId=426&SId=721")
+		browser.get("http://www.insight-china.cn/conference/MiniSite/AttendUser/MyTicket?CId=XXX&SId=XXX")
 		print("Whether Continue?  1/0")
 		choice = input("input there:")
 		if choice==1:
